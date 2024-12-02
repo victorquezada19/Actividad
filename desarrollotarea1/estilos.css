@@ -1,0 +1,165 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(150deg, #a8d457, #7a5cce);
+    color: #333;
+    height: 100vh
+}
+
+.contenedor{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.form_inscripcion {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fca7f0;
+    text-align: center;
+}
+
+
+.form_inscripcion h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ec9838;
+}
+
+
+.form_inscripcion input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.form_inscripcion button {
+    padding: 10px 20px;
+    background-color: #4c5eaf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form_inscripcion button:hover {
+    background-color: #656e65;
+}
+
+
+.contenedor {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.lista_cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cursos-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e9d562;
+}
+
+
+.item-detalles {
+    background-color: #fff;
+    border: 1px solid #45a049;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    text-align: center;
+}
+
+.item-detalles h1 {
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+
+
+body.contenedorExito{
+    background: #0bb68b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.conten-exito{
+    padding: 20px;
+    flex-direction: column;
+    /* width: 300px; */
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.fa-circle-check{
+    font-size: 48px;
+    padding: 30px;
+    color: green;
+}
+
+.conten-exito h1{
+    padding: 0;
+    margin: 0;
+    color: green;
+}
+
+.conten-exito p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.conten-exito button{
+    padding: 10px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+
+.conten-exito button:hover{
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba( 0, 0, 0,4);
+}
